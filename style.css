@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.allcard {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    background-color: rgba(213, 224, 224, 0.973);
+    border: 5vw solid rgb(219, 184, 28);
+    border-radius: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.part1 {
+    padding: 5vw;
+    padding-top: 2vw;
+    padding-bottom: 0.8vw ;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+p {
+    margin: 0; 
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h1 {
+    display: flex;
+    margin: 0;
+    font-size: 2.5vw;
+}
+
+h2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0; 
+    font-size: 7vw;
+}
+
+.vie {
+    color:rgb(228, 32, 32);
+}
+
+.img_descriptif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_minidraco {
+    border: 2vw solid rgb(219, 184, 28);
+    width: 80vw;
+}
+
+.descriptif_img {
+    text-align: center;
+    font-size: 2.5vw;
+    border: 1vw solid rgb(219, 184, 28);
+    border-left: 5vw solid rgb(219, 184, 28);
+    border-right: 5vw solid rgb(219, 184, 28);
+    background-color: rgb(219, 184, 28);
+    margin: 0.5vw;
+}
+
+.blanc {
+    width: 6vw;
+}
+
+.violet {
+    width: 6vw;
+}
+
+
+.attaque_poke {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 5vw;
+    margin-top: 12.5vw;
+    margin-bottom: 12.5vw;
+}
+
+.faiblesse_poke {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 3vw;
+    border-top: 0.7vw solid black;
+}
+
+.img_attaque {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-end;
+    font-size: 3vw;
+}
+
+.anecdote {
+    border: 0.6vw solid rgb(219, 184, 28);
+    font-size: 3vw;
+    font-style: italic;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2vw;
+
+}
+
+.date {
+    font-weight: lighter;
+}
